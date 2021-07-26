@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background: lightgray;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-menu{
+    background: url("https://www.teahub.io/photos/full/312-3128481_motocross-wallpapers-hd-backgrounds-motocross.jpg") no-repeat rgba(89, 120, 224, 0.623);
+    height: 150px;
+    width: 100%;
+    /* border-bottom: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+.header-menu-logo{
+    height: 60%;
+    width: 100%;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;    
+}
+.header-menu-logo p{    
+    margin: 0;
+    font-size: 30px;
+    background-color: rgba(248, 2, 2, 0.986);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header-menu-logo span{    
+    background-color: transparent;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.header-menu-items{    
+    background: rgba(248, 2, 2, 0.986);       
+    width: 60%;    
+    border-radius: 10px 0;
+    margin-right: 30px;
+}
+.header-menu-items ul{
+    display: flex;
+    justify-content: space-around;    
+    margin: 0;    
+}
+.header-menu-items ul li a{
+    display: block;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.header-menu-items ul li a:hover{
+    background: #fff;
+    color: rgba(248, 2, 2, 0.986);
+}
+
+.banner{
+    text-align: center;
+    border: 1px solid #000;    
+    width: 70%;
+    margin: 0 auto;
+}
+.banner img {    
+    width: 100%;
+    height: 200px;    
+}
+.banner p{
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.conteudo{
+    background: #fff;
+    margin: 20px auto;
+    width: 70%;
+    padding-bottom: 50px;
+}

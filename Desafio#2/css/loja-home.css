@@ -1,0 +1,70 @@
+.form{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto 0;    
+    text-align: center;
+    width: 70%;    
+    padding-bottom: 50px;
+}
+.form p{    
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.form p span{
+    color: red;
+}
+.titulo-form{
+    width: 35%;
+}
+.titulo-form  p{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;        
+}
+.form fieldset{    
+    margin: 60px auto 0;
+    width: 60%;
+    border-color: red;    
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.form fieldset legend{
+    margin-bottom: 20px;
+}
+
+.form .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.form .info input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.form button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.form button:active{
+    background-color: rgba(255, 255, 255, 0.822);
+}
